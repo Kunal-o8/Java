@@ -1,4 +1,4 @@
-# Employee Management API
+# Day-1
 
 This project is a simple RESTful API for managing employees. It is built with Spring Boot and uses the following concepts:
 
