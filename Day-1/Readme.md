@@ -15,15 +15,41 @@ A RESTful API is an architectural style for an application program interface (AP
 
 Annotations are a form of metadata and provide data about a program that is not part of the program itself. They have no direct effect on the operation of the code they annotate.
 
-@RestController: This annotation is used to define a controller and indicates that the return value of the methods should be a direct response.
-@RequestMapping: This annotation is used to map web requests onto specific handler classes and/or handler methods.
-@GetMapping: This annotation is used to handle GET type of request method.
-@PostMapping: This annotation is used to handle POST type of request method.
-@PutMapping: This annotation is used to handle PUT type of request method.
-@PatchMapping: This annotation is used to handle PATCH type of request method.
-@DeleteMapping: This annotation is used to handle DELETE type of request method.
-@PathVariable: This annotation is used to extract the value from the URI.
-@RequestBody: This annotation is used to bind the HTTP request body with a domain object in method parameter.
+### @RestController
+
+This annotation is used to define a controller and indicates that the return value of the methods should be a direct response.
+
+### @RequestMapping
+
+This annotation is used to map web requests onto specific handler classes and/or handler methods.
+
+### @GetMapping
+
+This annotation is used to handle GET type of request method.
+
+### @PostMapping
+
+This annotation is used to handle POST type of request method.
+
+### @PutMapping
+
+This annotation is used to handle PUT type of request method.
+
+### @PatchMapping
+
+This annotation is used to handle PATCH type of request method.
+
+### @DeleteMapping
+
+This annotation is used to handle DELETE type of request method.
+
+### @PathVariable
+
+This annotation is used to extract the value from the URI.
+
+### @RequestBody
+
+This annotation is used to bind the HTTP request body with a domain object in method parameter.
 
 ## ArrayList
 
